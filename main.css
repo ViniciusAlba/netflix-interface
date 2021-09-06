@@ -9,17 +9,21 @@
     box-sizing: border-box;
 }
 
+/* Base Elements */
+
 body {
     background-color: var(--preto);
     font-family: 'Times New Roman', Times, serif;
     margin: 20px 50px;
+    background-image: linear-gradient(to bottom, #000609, #000003);
 }
 
 header .container {
     display: flex;
     align-items: center;
     justify-content: start;
-    
+    position: fixed;
+    margin: 10px 0;
 }
 
 header .logo {
@@ -50,5 +54,31 @@ header nav a:focus {
 }
 
 header .settings {
-    margin-left: auto; 
+    margin-left: 800px; 
+}
+
+/* Main Movie */
+
+.main-movie {
+    font-size: 34px;
+    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50) 100%), url('img/vikings.jpg');
+    
+    height: 920px;
+    background-size: cover;
+    margin: -20px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    align-items: flex-start;
+}
+
+.main-movie .description {
+    margin-bottom: 30px;
+    width: 50%;
+
+    text-align:justify;
+
+    font-size: 26px;
 }
