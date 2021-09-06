@@ -14,8 +14,9 @@
 body {
     background-color: var(--preto);
     font-family: 'Times New Roman', Times, serif;
-    margin: 20px 50px;
+    margin: 20px 70px;
     background-image: linear-gradient(to bottom, #000609, #000003);
+    width: auto;
 }
 
 header .container {
@@ -23,7 +24,7 @@ header .container {
     align-items: center;
     justify-content: start;
     position: fixed;
-    margin: 10px 0;
+    margin: 10px 0px;
 }
 
 header .logo {
@@ -54,7 +55,7 @@ header nav a:focus {
 }
 
 header .settings {
-    margin-left: 800px; 
+    margin-left: 870px;
 }
 
 /* Main Movie */
@@ -65,7 +66,7 @@ header .settings {
     
     height: 920px;
     background-size: cover;
-    margin: -20px;
+    margin-top: -20px;
     
     display: flex;
     flex-direction: column;
@@ -79,6 +80,50 @@ header .settings {
     width: 50%;
 
     text-align:justify;
-
     font-size: 26px;
+}
+
+.main-movie .container {
+    margin-top: 350px;
+}
+
+.first-button {
+    font-size: 24px;
+    font-weight: 600;
+
+    height: 60px;
+    width: 350px;
+    border: none;
+    border-radius: 5px;
+
+    cursor: pointer;
+}
+
+.first-button:hover {
+   background: #ccc;
+   transition: .3s ease all;
+}
+
+.first-button i {
+    margin-right: 20px;
+}
+
+.second-button {
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+
+    width: 200px;
+    height: 60px;
+    border: none;
+    border-radius: 5px;
+
+    background: rgba(204, 204, 204, 0.39);
+
+    cursor: pointer;
+}
+
+.second-button:hover {
+    background: rgba(126, 112, 112, 0.315);
+    transition: .3s ease all;
 }
