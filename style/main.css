@@ -62,7 +62,7 @@ header .settings {
 
 .main-movie {
     font-size: 34px;
-    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50) 100%), url('img/vikings.jpg');
+    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50) 100%), url('/img/vikings.jpg');
     
     height: 920px;
     background-size: cover;
@@ -127,3 +127,22 @@ header .settings {
     background: rgba(126, 112, 112, 0.315);
     transition: .3s ease all;
 }
+
+.movies-carousel h2 {
+    color: #fff;
+    font-size: 32px;
+    margin: 15px 0;
+}
+
+.movies-carousel img:hover {
+    cursor: pointer;
+}
+
+/* Class to control the size of images */
+
+.movie-box {
+    height: 250px;
+    width: 420px;
+    display: block;
+}
+
