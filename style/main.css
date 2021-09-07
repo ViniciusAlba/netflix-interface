@@ -13,7 +13,7 @@
 
 body {
     background-color: var(--preto);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif, Times, serif;
     margin: 20px 70px;
     background-image: linear-gradient(to bottom, #000609, #000003);
     width: auto;
