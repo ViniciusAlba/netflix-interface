@@ -14,9 +14,6 @@
 body {
     background-color: var(--preto);
     font-family: Arial, Helvetica, sans-serif, Times, serif;
-    margin: 20px 70px;
-    background-image: linear-gradient(to bottom, #000609, #000003);
-    width: auto;
 }
 
 header .container {
@@ -25,6 +22,7 @@ header .container {
     justify-content: start;
     position: fixed;
     margin: 10px 0px;
+    margin: 30px 50px;
 }
 
 header .logo {
@@ -63,9 +61,9 @@ header .settings {
 .main-movie {
     font-size: 34px;
     background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50) 100%), url('/img/vikings.jpg');
-    
-    height: 920px;
     background-size: cover;
+
+    height: 780px;
     margin-top: -20px;
     
     display: flex;
@@ -84,7 +82,7 @@ header .settings {
 }
 
 .main-movie .container {
-    margin-top: 350px;
+    margin: 350px 50px 0px 50px;
 }
 
 .first-button {
@@ -131,7 +129,11 @@ header .settings {
 .movies-carousel h2 {
     color: #fff;
     font-size: 32px;
-    margin: 15px 0;
+    margin: 15px 50px 15px 50px;
+}
+
+.movies-carousel img {
+    margin: 0px 50px;
 }
 
 .movies-carousel img:hover {
