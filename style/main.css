@@ -23,6 +23,7 @@ header .container {
     position: fixed;
     margin: 10px 0px;
     margin: 30px 50px;
+    z-index: 5;
 }
 
 header .logo {
@@ -148,3 +149,16 @@ header .settings {
     display: block;
 }
 
+footer {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    text-decoration: none;
+    margin: 30px 0px 10px 0px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+}
