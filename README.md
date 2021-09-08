@@ -16,11 +16,7 @@ This project is a DIO (Digital Innovation One) project. DIO it is a platform wit
 
 ## Demo
 
-
-Desktop
 <img src="/img/desktop.png" alt="My desktop solution"/>
-
-Mobile
 <img src="/img/mobile.png" alt="My mobile solution">
 
 
