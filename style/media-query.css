@@ -14,10 +14,6 @@
         margin: auto;
     }
 
-    header .settings {
-        margin: 0px;
-    }
-
     .first-button {
         font-size: 20px;
         font-weight: 600;
@@ -69,7 +65,7 @@
 
 }
 
-@media screen and (max-width: 375px){
+@media screen and (max-width: 414px){
     body {
         width: 100%;
         overflow-x: hidden;
@@ -85,20 +81,22 @@
         margin: auto;
     }
 
-    header .settings {
-        margin: 0px;
+    .buttons {
+        margin-top: 30px;
+        display: flex;
     }
 
     .first-button {
         font-size: 18px;
         font-weight: 600;
     
-        height: 60px;
-        width: 150px;
+        height: 80px;
+        width: 200px;
         border: none;
         border-radius: 5px;
     
         cursor: pointer;
+        margin: 10px;
     }
 
     .second-button {
@@ -107,25 +105,28 @@
         color: #fff;
     
         width: 150px;
-        height: 60px;
+        height: 80px;
         border: none;
         border-radius: 5px;
     
         background: rgba(204, 204, 204, 0.39);
     
         cursor: pointer;
+        margin: 10px;
     }
 
     .main-movie {
+        height: 400px;
         font-size: 24px;
         background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50) 100%), url('/img/vikings.jpg');
-        background-size: cover  
+        background-size: cover;
         margin: auto;
     }
 
     .main-movie .container {
         width: 80%;
         text-align: justify;
+        margin: 30px 50px 0px 50px;
     }
 
     .main-movie .description {
